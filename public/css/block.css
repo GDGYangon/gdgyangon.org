@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#page {
+  background: #ffffff;
+}
+.container {
+  margin: auto;
+  height: auto;
+}
+section#hero {
+  background: #F5F5F5;
+  background-size: cover;
+  padding: 17.5em 0!important;
+  background-size: cover;
+  background-image: url('/img/gdg.jpg');
+}
+section#gdg-info {
+  background: #F5F5F5;
+  padding: 100px 0px!important;
+}

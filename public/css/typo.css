@@ -1,0 +1,30 @@
+section#hero {
+  font-size: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+section#hero img {
+  width: 70px;
+  height: auto;
+}
+section#hero h1 { 
+  margin: 0px;
+  font-size: 7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  color: #5d83c3;
+  text-shadow:0px 0.005em #cc3333, -0.005em 0px #cc3333, -0.005em 0.01em #cc3333, -0.01em 0.005em #cc3333, -0.01em 0.015em #cc3333, -0.015em 0.01em #cc3333, -0.015em 0.02em #cc3333, -0.02em 0.015em #cc3333, -0.02em 0.025em #cc3333, -0.025em 0.02em #cc3333, -0.025em 0.03em #cc3333, -0.03em 0.025em #cc3333, -0.03em 0.035em rgb(255, 207, 68), -0.035em 0.03em #ffcc33, -0.035em 0.04em rgb(255, 207, 68), -0.04em 0.035em #ffcc33, -0.04em 0.045em rgb(255, 207, 68), -0.045em 0.04em #ffcc33, -0.045em 0.05em rgb(255, 207, 68), -0.05em 0.045em #ffcc33, -0.05em 0.055em rgb(255, 207, 68), -0.055em 0.05em #ffcc33, -0.055em 0.06em rgb(255, 207, 68), -0.06em 0.055em #ffcc33, -0.06em 0.065em rgb(255, 207, 68), -0.065em 0.06em #ffcc33, -0.065em 0.07em rgb(255, 207, 68), -0.07em 0.065em #ffcc33;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section#gdg-info {
+  font-size: 100%;
+  text-align: center;
+}
+section#gdg-info header h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
