@@ -9,4 +9,4 @@ window._skel_config = {
     narrow: { range: "481-1199", containers: "fluid" },
     mobile: { range: "-480", containers: "fluid", lockViewport: true, grid: { collapse: true } } 
     }
-}; 
+};

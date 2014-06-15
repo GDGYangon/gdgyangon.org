@@ -3,47 +3,207 @@
   <head>
     <title>{{ current }}</title>
     <meta charset=utf-8 />
-    <link rel=stylesheet href=/css/main.css >
+    <link rel=stylesheet href=/css/foundation-icons.css >
     <link rel=stylesheet href=/css/block.css >
     <link rel=stylesheet href=/css/typo.css >
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel=stylesheet href=/css/main.css >
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
   </head>
 
-  <body>
-  <div id=page>
+<body>
+<div class=container>
+  <div class=row>
+  
+  <section id=hero class=12u>
     
-    <div class=container>    
-      <div class=row> 
-        <section id=hero class=12u>    
-          
-          <img src=/img/logo.png />
-          <h1>GDG</h1>
+    <div id=heroSocial>
+ 
+     <a href=https://www.facebook.com/groups/241088326082408 ><img src=/img/facebook.png class=socialicon /></a>
+     <a href=https://twitter.com/gdgyangon id=twitter><img src=/img/twitter.png class=socialicon /></a>
+     <a href=http://instagram.com/gdgyangon><img src=/img/instagram.png class=socialicon /></a>
+
+    </div>
+    
+    <!-- 
+      <p class=eventMeta><i class=fi-calendar></i>JUNE 10, 14:00 <i class=fi-marker></i>GMIT, ShweBonTharSt.</p>
+    -->
+    <br />
+    <br />
+    <br />
+    <img src=/img/Logo.png id=logo />
+  
+    
+    <!-- 
+      <p class=count_down>Count Down till next event : 14 Days, 15 Hours 16 Mins 32 Secs</p>
+    -->
+
+    <div class="join">
+      
+      <a href=http://www.google.com/+gdgyangon>Join Us!</a>
+    
+    </div>
+  
+  </section>
+  
+  <section id=nav class=12u>
+    <nav>
+      <a class=slow href=#about>About</a>
+      <a class=slow href=#share>DevFest</a>
+      <a class=slow href=#share>Hackathon</a>
+      <a class=slow href=#share>CodeLabs</a>
+      <a class=slow href=#share>TechTalk</a>
+      <a href=#>GDL</a>
+      <a href=#>WORKS</a>  
+    </nav>
+  </section>
+  
+  <section id=about class=12u>
+    
+    <img class=head src=/img/head.png />
+    
+    <h1 class=gdg>What is <span class="strong">GDG</span>?</h1>
+
+    <p class=hero-text>
+      GOOGLE DEVELOPER GROUP are for developers<br />who are interested in Google's developer<br />technology.
+    </p>
+    <br />
+    <br />
+    <ul>
+		  <li>● Run by passionate individuals in the developer community</li>
+		  <li>● A place to learn about Google Technologies and Tools for developers.</li> 
+		  <li>● A place to see what local companies and developers are doing with these  technologies</li> 
+		  <li>● Focused on developers and educational technical content</li>
+		  <li>● Open to the public with a public membership</li>
+		  <li>● A place to meet cool and smart people in tech :)</li> 
+    </ul>
+  </section>
+  
+  <section id=mission class=12u>
+    
+    <img class=head src=/img/mission.png />
+
+    <h1 class="gdg white">Missions</h1>
+
+    <p class="hero-text-mission white">
+    1.  To create a local developer network<br />
+		2.  To host monthly meetup <br />
+		3.  To share and introduce Google related technologies to the local developers <br />
+		4.  To promote Open Source tools and technologies <br />
+		5.  To support other Google related actives such as GSoC <br /> 
+    </p>
+  </section>
+
+  <section id=share class=12u>
+    
+    <img class=head src=/img/share.png />
+
+    <h1 class=gdg>A <span class=strong>GDG</span> can take many forms</h1>
+  
+    <div class="row kind-row">
+      
+      <section class="devfest kind 4u">
         
-        </section> 
+        <img class=head src=/img/devfest.png />
+  
+        <h1 class=kind-h>DEVFEST</h1>
+
+      </section>
+
+      <section class="devfest kind 4u">
+        
+        <img class=head src=/img/codelabs.png />
+  
+        <h1 class=kind-h>CodeLabs<br />
+        <span class=thin>Or</span><br />
+        CodeSprints</h1>
+
+      </section>
+
+      <section class="devfest kind 4u">
+        
+        <img class=head src=/img/talk.png />
+  
+        <h1 class=kind-h>TechTalk<br />
+        Meetup<br />
+        <span class=thin>&</span> Hangouts</h1>
+
+      </section>
+
+    </div>
+  
+    <img class=line src=/img/line.png />
+    <br/>
+    <img class=hackthon src=/img/hackthon.png />
+    <br />
+    <img class=line src=/img/line.png />
+
+  </section>
+
+
+  <section id=opensource class=12u>
+  
+    <img class=head src=/img/power.png />
+
+    <div class="lab">
+      
+      <section class="chromelab row">
+        
+        <img class="chrome-head 4u" src=/img/chrome.png />
+          
+        <div class=8u>
+          <h1>Chrome WebLab</h1>
+
+          <p class="hero-text white">
+            <ul>
+              <li>Open Sourced: WebClient, Server & Hardware</li>
+              <li>https://github.com/GoogleChrome/ChromeWebLab</li>
+            </ul>
+          </p>
+        </div>
+      </section>
+    </div>
+
+  </section>
+
+  <section id=map class=12u>
     
+    <iframe src="https://mapsengine.google.com/map/embed?mid=zQG3ij8vHefQ.kk_3HspNOOBM" width="100%" height="480" frameborder="0" style="border:0"></iframe>
 
-        <!---
-        <section id=gdg-info class=12u>
-          <header>
-            <h1>Google Developer Group Myanmar</h1>
-          </header>
-          <div class=row>
-            <article class=6u>
-              <p>We are a group of passionate people who love to use Google's Technologies in our ways</p>
-            </article>
-
-            <aside class=6u>
-              <nav>
-                <h3>Events</h3>
-              </nav>
-            </aside>
-          </div>
-        </section> 
-        --->   
-      </div>
-    </div> 
+  </section>
   </div>
-  </body>
+
+  <footer class=row>
+
+    <section id=footer class=12u>
+    
+      <img class=thanks src=/img/thanks.png />
+      
+      <p id=copyright>© 2014 GDG YANGON. All Rights Reserved.</p>
+    </section>
+  
+  </footer>
+</div>
+
+</body>
+
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
 <script type=text/javascript src=/js/main.js ></script>
 <script type=text/javascript src=/js/skel.min.js ></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type=text/javascript>
+$("a.slow").on("click", function(e) {
+  var t, tOffset;
+  t = $(this.hash);
+  t = t.length && t || $("[name=" + this.hash.slice(1) + "]");
+  if (t.length) {
+    tOffset = t.offset().top;
+    $('html,body').animate({
+      scrollTop: tOffset - 20
+    }, "delay");
+    e.preventDefault();
+  }
+});
+</script>
 </html>

@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300);
 body {
   margin: 0px;
   padding: 0px;
@@ -5,18 +6,217 @@ body {
 #page {
   background: #ffffff;
 }
-.container {
-  margin: auto;
-  height: auto;
-}
 section#hero {
-  background: #F5F5F5;
+  min-height: 600px;
+  padding: 5% 0%!important;
   background-size: cover;
-  padding: 17.5em 0!important;
-  background-size: cover;
-  background-image: url('/img/gdg.jpg');
+  background-image: url('/img/bg.png');
 }
-section#gdg-info {
-  background: #F5F5F5;
-  padding: 100px 0px!important;
+p.eventMeta {
+  font-size: 2em;
+  color: #ffffff;
+  font-family: Open Sans , Times , sans-serif;
+  margin: 50px 0px;
+}
+p.eventMeta i {
+  margin-right:20px;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+section#hero #logo {
+  margin: 20px 0px 50px 0px;
+}
+section#hero div#heroSocial a img.socialicon {
+  margin: 50px 20px;
+}
+#heroSocial a#twitter {
+  border-bottom: solid #ffffff 3px;
+}
+p.count_down {
+  color: #9B9B9B; 
+  font-style: normal; 
+  font-weight: 300;
+  font-family: 'Open Sans', Times , sans-serif;
+  font-size: 1em;
+}
+.join {
+  display: block;
+  margin: 50px 0px;
+  color: #ffffff;
+  text-align:center;   
+}
+.join a {
+  color: #ffffff;
+  text-decoration: none;
+  background: #D7493F;
+  padding: 10px 20px;
+  font-family: 'Open Sans' , Times , sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-style: italic;
+  border-radius: 4px;
+  /* Rectangle 3: */
+  background: #D7493F;
+  border: 0px solid rgba(255,255,255,0.10);
+  -moz-box-shadow:    0px 4px 0px 0px #9D3A33;
+  box-shadow:         0px 4px 0px 0px #9D3A33;
+}
+section#nav {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  padding-top: 10px!important;
+  background: #2d2d2d;
+  color: #ffffff; 
+}
+section#nav nav {
+  padding: 10px 0px; 
+  color: #ffffff;
+}
+section#nav nav a {
+  color: #9B9B9B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Open Sans', Times, sans-serif;
+  font-weight: light;
+  text-decoration:none;
+  margin: 0px 20px;
+}
+section#nav nav a:hover {
+  color: #4F8BF7;
+}
+section#nav nav a:active  {
+  color: #D74940;
+}
+section#about {
+  background: #F1F1F1;
+  text-align: center;
+  padding-bottom: 80px;
+}
+img.head , img.chrome-head {
+  width: auto;
+  height: auto;
+  margin: 40px 0px 20px 0px;
+}
+h1.gdg {
+  font-family:"Open Sans", Times, sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+span.strong {
+  font-style: bold;
+  font-weight: 400;
+}
+p.hero-text {
+  font-family:"Open Sans", Times , sans-serif;
+  font-size: 24px;
+  font-weight: 3000;
+  line-height: 40px;
+  color: #323232;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: square;
+}
+ul li{
+  font-family: "Open Sans", Times , sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1A1A1A;
+  list-style: circle;
+  line-height: 35px;
+}
+p.hero-text-mission {
+  font-family: "Open Sans", Times , sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1A1A1A;
+  list-style: square;
+  line-height: 35px;
+}
+section#mission {
+  background: #558DF3;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.white {
+  color: #ffffff!important;
+}
+section#share {
+  background: #FFC658;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.kind-row{
+  padding: 50px 50px;
+}
+section#kind {
+  text-align: center;
+}
+h1.kind-h {
+  font-family: "Open Sans", Times, sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+}
+img.line {
+  margin: 25px auto;
+}
+img.hackthon {
+  width: 40%;
+  margin: 50px auto; 
+}
+span.thin {
+  font-weight: 300;
+}
+section#opensource {
+  background: #00985D;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.lab {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+img.chrome-head {
+ float: left;
+}
+.lab h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Lucida Grande", Times , sans-serif;
+}
+#opensource .lab h1 {
+  margin-top: 70px;
+  text-align: left; 
+}
+#opensource ul li {
+  color: #ffffff;
+}
+section#map {
+  display: block;
+  z-index: -1000;
+}
+section#map iframe  {
+  
+}
+footer {
+  z-index: 1000;
+}
+section#footer {
+  text-align: center;
+  background: #323232;
+  position: relative;
+}
+img.thanks {
+  margin-top:-80px;
+}
+p#copyright {
+  font-family: "Open Sans", Times , sans-serif;
+  font-size: 12px;
+  margin: 10px 0px;
+  font-weight: 300;
+  color: #565656;
 }

@@ -1,13 +1,23 @@
+::selection {
+  color: #dfdfdf;
+  background: #558DF3;
+}
+
 section#hero {
   font-size: 100%;
   text-decoration: none;
   text-align: center;
 }
 
-section#hero img {
-  width: 70px;
+section#hero img#logo {
+  width: 30%;
   height: auto;
-}
+}border-radius: 4px;
+/* Rectangle 3: */
+background: #D7493F;
+border: 0px solid rgba(255,255,255,0.10);
+-moz-box-shadow:    0px 4px 0px 0px #9D3A33;
+box-shadow:         0px 4px 0px 0px #9D3A33;
 section#hero h1 { 
   margin: 0px;
   font-size: 7em;

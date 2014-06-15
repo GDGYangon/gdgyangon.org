@@ -13,7 +13,7 @@ func init() {
 	}))
 
 	m.Get("/", func(r render.Render) {
-		r.HTML(200, "Hello World", "Hello World Content")
+		r.HTML(200, "GDG YANGON", "Hello World!")
 	})
 
 	m.Get("/events", func(r render.Render) {
